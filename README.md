@@ -5,9 +5,7 @@
 This is a frontend-only Task Board application built using React.  
 The objective of this assignment was to create a functional task management system with authentication, drag-and-drop support, proper state management, and reliable local persistence — without using any backend.
 
----
-
-## 🔐 Authentication
+## Authentication
 
 Static login credentials (as per assignment requirements):
 
@@ -22,9 +20,7 @@ Features implemented:
 - Logout functionality
 - Protected routes (unauthenticated users cannot access the board)
 
----
-
-## 📋 Task Board
+## Task Board
 
 The board contains 3 fixed columns:
 
@@ -42,9 +38,7 @@ Each task supports the following fields:
 - CreatedAt
 - Status
 
----
-
-## ✅ Implemented Features
+## Implemented Features
 
 - Create task
 - Edit task
@@ -59,9 +53,7 @@ Each task supports the following fields:
 
 All board data persists even after refreshing the page.
 
----
-
-## 🧠 State Management
+## State Management
 
 React Context API is used to manage:
 
@@ -70,17 +62,13 @@ React Context API is used to manage:
 
 Filtering and sorting logic is derived before rendering to avoid mutating the original task state.
 
----
-
-## 💾 Persistence & Reliability
+## Persistence & Reliability
 
 - Task data is stored in localStorage.
 - Safe parsing is implemented to handle missing or corrupted storage data.
 - Reset Board option clears stored data safely.
 
----
-
-## 🛠 Tech Stack
+## Tech Stack
 
 - React (Vite)
 - React Router DOM
@@ -89,9 +77,7 @@ Filtering and sorting logic is derived before rendering to avoid mutating the or
 - localStorage
 - Vitest (Basic unit tests)
 
----
-
-## 🧪 Testing
+## Testing
 
 Basic tests are implemented using Vitest and React Testing Library.
 
@@ -99,9 +85,7 @@ To run tests:
 
 npm run test
 
----
-
-## 🚀 Running the Project Locally
+## Running the Project Locally
 
 1. Install dependencies:
 
@@ -115,10 +99,8 @@ npm run dev
 
 http://localhost:5173/
 
----
-
-## 🌐 Deployment
+## Deployment
 
 The application is deployed publicly.
 
-Deployment URL: https://task-board-rho-three.vercel.app/login
+Deployment URL:
